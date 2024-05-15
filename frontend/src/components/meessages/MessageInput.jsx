@@ -17,7 +17,7 @@ const handelSumbit = async(e)=>{
 			<div className='w-full relative'>
 				<input
 					type='text'
-					className='border text-sm rounded-lg block w-full p-2.5  bg-gray-700 border-gray-600 text-white'
+					className='border text-sm rounded-lg block w-full p-2.5 pr-[29px] bg-gray-700 border-gray-600 text-white'
 					placeholder='Send a message'
 				onChange={(e)=> setMessaage(e.target.value)}
 				/>

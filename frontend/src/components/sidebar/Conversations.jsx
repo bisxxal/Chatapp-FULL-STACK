@@ -6,7 +6,7 @@ function Conversations() {
  
   return (
    
-        		<div className='py-2 flex flex-col overflow-auto'>
+        		<div className='py-2    h-[69%] flex flex-col overflow-auto'>
 					{
 						conversation.map((conversation , index)=>(
 							<Conversation
