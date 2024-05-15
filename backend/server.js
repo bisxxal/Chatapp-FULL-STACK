@@ -28,4 +28,4 @@ server.listen(PORT , ()=> {
 connectToMongoDB()
     console.log(`server runing port ${PORT}`)
 
-})
+});
